@@ -28,8 +28,8 @@ public class MainActivity extends Activity {
 		Button btnChangeText = (Button) findViewById(R.id.btnChangeText);
 		Button btnBack = (Button) findViewById(R.id.btnBack);
 		// TestListener为继承View.OnClickListener的类
-		btnChangeText.setOnClickListener(new MyOnClickListener());
-		btnBack.setOnClickListener(new MyOnClickListener());
+		btnChangeText.setOnClickListener(new BtnClickListener());
+		btnBack.setOnClickListener(new BtnClickListener());
 	}
 
 	@Override
