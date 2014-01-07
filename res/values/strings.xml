@@ -7,4 +7,10 @@
     <string name="change_text">Change Text</string>
     <string name="back">戻す</string>
 
+    <!-- Menu -->
+    <string name="new_file">新建</string>
+    <string name="edit_file">编辑</string>
+    <string name="delete_file">删除</string>
+    <string name="close_file">关闭</string>
+    
 </resources>

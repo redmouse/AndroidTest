@@ -1,9 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/newFile"
         android:orderInCategory="100"
         android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:title="@string/new_file"/>
+    <item android:id="@+id/editFile" android:title="@string/edit_file"></item><item android:id="@+id/deleteFile" android:orderInCategory="100" android:showAsAction="never" android:title="@string/delete_file" />
 
 </menu>
